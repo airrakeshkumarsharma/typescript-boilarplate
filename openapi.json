@@ -5,8 +5,8 @@
     "version": "1.0.0",
     "description": "API Service endpoints",
     "contact": {
-      "email": "sidhant@panda.fyi",
-      "name": "Sidhant Panda"
+      "email": "",
+      "name": ""
     }
   },
   "servers": [

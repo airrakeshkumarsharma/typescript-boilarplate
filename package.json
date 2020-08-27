@@ -13,7 +13,7 @@
     "boilerplate",
     "eslint"
   ],
-  "author": "xyz",
+  "author": "",
   "main": "dist/index.js",
   "scripts": {
     "eslint": "eslint src/server.ts",
