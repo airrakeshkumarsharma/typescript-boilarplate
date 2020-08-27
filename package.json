@@ -13,7 +13,7 @@
     "boilerplate",
     "eslint"
   ],
-  "author": "Sidhant Panda",
+  "author": "xyz",
   "main": "dist/index.js",
   "scripts": {
     "eslint": "eslint src/server.ts",
@@ -23,7 +23,8 @@
     "dev": "./scripts/dev.sh",
     "start": "node dist/server.js",
     "test": "jest",
-    "fix-lint": "./node_modules/eslint/bin/eslint.js  src --ext .ts --fix"
+    "fix-lint": "./node_modules/eslint/bin/eslint.js  src --ext .ts --fix",
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
   },
   "dependencies": {
     "@hapi/joi": "17.1.1",
@@ -54,13 +55,10 @@
     "jest": "26.1.0",
     "jest-express": "1.12.0",
     "mockingoose": "2.13.2",
+    "prettier": "^2.1.1",
     "supertest": "4.0.2",
     "ts-jest": "26.1.1",
     "typescript": "3.9.5"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sidhantpanda/docker-express-typescript-boilerplate/issues"
-  },
-  "homepage": "https://github.com/sidhantpanda/docker-express-typescript-boilerplate#readme"
+  "license": "MIT"
 }

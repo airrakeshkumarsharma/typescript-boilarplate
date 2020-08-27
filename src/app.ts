@@ -3,7 +3,7 @@ import compression from 'compression';
 import path from 'path';
 import express, { Request, Response, NextFunction } from 'express';
 import ApplicationError from './errors/application-error';
-import routes from './routes';
+import routes from './services/routes';
 
 const app = express();
 
